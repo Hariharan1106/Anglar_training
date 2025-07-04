@@ -1,0 +1,41 @@
+<!-- <h1> Clicked {{clickcount}} times</h1>
+<button (click)="clickMe()">Click Me</button> -->
+
+<!--Index-->
+
+<!-- <h1>Index Example</h1>
+<ul>
+<li *ngFor="let fruit of Fruits; let i= index;">{{i + 1}}. {{fruit}}</li>
+</ul> -->
+
+
+<!--First and Last Element-->
+
+<!-- <h1>First and Last Example</h1>
+<ul>
+    <li *ngFor="let fruit of Fruits; let isFirst = first  let isLast = last">
+        <strong *ngIf="isFirst">First :</strong>
+        <strong *ngIf="isLast">Last :</strong>
+    {{fruit}}
+    </li>
+</ul> -->
+
+<!-- Odd and Even Example -->
+
+<!-- 
+<h1>Odd and Even Example</h1>
+<ul>
+    <li *ngFor="let fruit of Fruits; let  isEven = even; let isOdd = odd" 
+     [ngClass] = "{'even-item' : isEven, 'odd-item': isOdd }">
+        {{fruit}}
+    </li>
+</ul> -->
+
+<!-- <input type="checkbox" [(ngModel)]="showMe">
+<p *ngIf="showMe">Can you see me?</p> -->
+
+<!-- <input type="checkbox" [(ngModel)]=" applyRed">
+<p [ngClass]="{'primary' : applyRed}" >Welcome to the Angular</p> -->
+
+
+<p [ngStyle]="{'color':'red', 'font-size': '50px'}">Sample Text</p>
